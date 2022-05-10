@@ -4,33 +4,37 @@
 // let y;
 
 //  Declearing and Initialization
-var k = 8;
+//var k = 8;
 
 
 // How to use variables:
 //Initialization
-// x = 5;
-// y = 6;
+/* x = 5;
+ y = 6;
 
 //  Declearing and Initialization
-// let z = x + y;
+let z = x + y;
 // ()
 // {}
 
-// console.log("X value:", x);
-// console.log("Y value:", y);
-// console.log("Z value:", z);
+//console.log("X value:", x);
+ //console.log("Y value:", y);
+ //console.log("Z value:", z);
+
+
+//let result = x + y;
 
 
 //Changing the value of x
 // Assigning value
-// x = 9;
-// console.log("X value:", x);
+ x = 9;
 
-// x = y;
+ console.log("X value:", x);
 
-// console.log("X value:", x);
+ x = y;
 
+ console.log("X value:", x);
+*/
 
 // console.log("h");
 //These two are different
@@ -49,17 +53,17 @@ var k = 8;
 // 11*10 = 110
 // console.log((5 + 6)*10);
 
-let x = 5;
-let y = 6;
-let z = 11;
-let m = 3;
+//let x = 5;
+//let y = 6;
+//let z = 11;
+//let m = 3;
 
 
 // console.log(x+y);
-let d = z/m;
-let mu = y*d;
+//let d = z/m;
+//let mu = y*d;
 
-let result = x = mu;
+//let result = x = mu;
 // console.log(d);
 // console.log("result: ",result);
 // console.log("John" + " " + "Doe");
@@ -67,16 +71,15 @@ let result = x = mu;
 
 // console.log("John", "Doe");
 
-let john = "John";
-let doe = "Doe";
+//let john = "John";
+//let doe = "Doe";
 
-let anything = john + " " + doe;
+////let anything = john + " " + doe;
 // console.log(anything);
-
-let addNumAndStr = john + x;
+//let addNumAndStr = john + x;
 // console.log(addNumAndStr);
 
-x = 5;
+/*x = 5;
 let numStr = "7";
 result = x + numStr; //Javascript joins a number and a string 
 
@@ -111,4 +114,4 @@ let last_name;
 let MyNameIsJohn; //Pascal Notation
 let myNameIsJohn; //Camel Notation
 
-
+*/
