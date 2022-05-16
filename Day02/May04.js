@@ -46,12 +46,13 @@ let z = x + y;
 
 // 6 x 10 = 60 ;
 // 60 +5 = 65
-// console.log(5 + 6*10);
+
+//console.log(5 + 6*10);
 
 
 // (5 +6) = 11
 // 11*10 = 110
-// console.log((5 + 6)*10);
+ //console.log((5 + 6)*10);
 
 //let x = 5;
 //let y = 6;
@@ -59,7 +60,7 @@ let z = x + y;
 //let m = 3;
 
 
-// console.log(x+y);
+ //console.log(x+y);
 //let d = z/m;
 //let mu = y*d;
 
@@ -79,39 +80,51 @@ let z = x + y;
 //let addNumAndStr = john + x;
 // console.log(addNumAndStr);
 
-/*x = 5;
-let numStr = "7";
-result = x + numStr; //Javascript joins a number and a string 
 
-// console.log("5 + 7:", result); 
+//x = 5;
+///let numStr = "7";
+//result = x + numStr; //Javascript joins a number and a string 
 
-result = x - numStr; //bug in javascript
+ //console.log("5 + 7:", result);
+
+ 
+
+//result = x - numStr; //bug in javascript
 // console.log("5 - 7:", result);
 
-result = x * numStr; //bug in javascript
+//result = x * numStr; //bug in javascript
 // console.log("5 * 7:", result);
-result = x * john;
+//result = x * john;
 // console.log("5 * john:", result); // Nan (Not a Number)
 
-function addNums(x , y) {
+/*function addNums(x , y) {
     let add = x + y;
     return add;
     
-}
+}*/
 
-result = addNums(7, 8);
-// console.log("result" , result);
+//result = addNums(7, 8);
+ //console.log("result" , result);
+
+/* function addNums(b, c) {
+    let add = b * c;
+    return add;
+ }
+
+ result = addNums(10,5);
+ console.log("result" , result);
+ */
 
 //javaScript is Case Sensitive
-let lastname, lastName;
-lastName = "Doe";
-lastname = "Peterson";
+//let lastname, lastName;
+//lastName = "Doe";
+//lastname = "Peterson";
 
 
 // let last-name; error
-let last_name;
+//let last_name;
 
-let MyNameIsJohn; //Pascal Notation
-let myNameIsJohn; //Camel Notation
+//let MyNameIsJohn; //Pascal Notation
+//let myNameIsJohn; //Camel Notation
 
-*/
+

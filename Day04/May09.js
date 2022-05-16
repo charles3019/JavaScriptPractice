@@ -1,75 +1,107 @@
-// let x = 3;
-// let y = 10;
-// console.log("before");
-// console.log("x", x);
-// console.log("y", y);
+/*let x = 3;
+let y = 10;
+ console.log("before");
+console.log("x", x);
+console.log("y", y);
 
-// x = y;
+ x = y;
 
-// console.log("after");
-// console.log("x", x);
-// console.log("y", y);
+ console.log("after");
+ console.log("x", x);
+ console.log("y", y);
+*/
 
-// let x = 3;
-// let y = 10;
+ /*let x = 3;
+ let y = 10;
 
-// console.log("before");
-// console.log("x", x);
-// console.log("y", y);
+ console.log("before");
+ console.log("x", x);
+ console.log("y", y);
 
-// x += y; // x = x + y; (x = 5 + 10)
-
-
-// console.log("after");
-// console.log("x", x);
-// console.log("y", y);
+x += y; // x = x + y; (x = 5 + 10)
 
 
+ console.log("after");
+ console.log("x", x);
+ console.log("y", y);
+*/
 
-// let x = 10;
-// let y = 3;
+/*let b = 3;
+let v = 10;
+console.log("before");
+console.log("b", b);
+console.log("v", v);
 
-// console.log("before");
-// console.log("x", x);
-// console.log("y", y);
+b += v;
 
-// x -= y; // x = x + y; (x = 5 + 10)
-
-
-// console.log("after");
-// console.log("x", x);
-// console.log("y", y);
-
-
-// let x = 10;
-// let y = 3;
-
-// console.log("before");
-// console.log("x", x);
-// console.log("y", y);
-
-// x *= y; // x = x + y; (x = 5 + 10)
+console.log("After");
+console.log("b", b);
+console.log("v", v);
+*/
 
 
-// console.log("after");
-// console.log("x", x);
-// console.log("y", y);
+/*let b = 12;
+let v = 11;
 
+console.log("before");
+console.log("b", b);
+console.log("v", v);
 
+b -= v;
 
-// let x = 15;
-// let y = 3;
+console.log("After");
+console.log("b", b);
+console.log("v", v);
+
+ //let x = 10;
+ //let y = 3;
 
 // console.log("before");
-// console.log("x", x);
-// console.log("y", y);
+ //console.log("x", x);
+ //console.log("y", y);
 
-// x /= y; // x = x + y; (x = 5 + 10)
+ //x -= y; // x = x + y; (x = 5 + 10)
 
 
-// console.log("after");
-// console.log("x", x);
-// console.log("y", y);
+ //console.log("after");
+//console.log("x", x);
+ //console.log("y", y);
+
+*/
+
+
+/*
+ let x = 10;
+ let y = 3;
+
+ console.log("before");
+ console.log("x", x);
+ console.log("y", y);
+
+ x *= y; // x = x + y; (x = 5 + 10)
+
+
+ console.log("after");
+ console.log("x", x);
+ console.log("y", y);
+
+
+*/
+
+
+ let x = 15;
+ let y = 3;
+
+ console.log("before");
+ console.log("x", x);
+ console.log("y", y);
+
+ x /= y; // x = x + y; (x = 5 + 10)
+
+
+ console.log("after");
+ console.log("x", x);
+ console.log("y", y);
 
 
 
