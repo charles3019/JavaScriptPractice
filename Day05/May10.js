@@ -84,6 +84,30 @@ let answer = "thats great";
 //     return result;   // The function returns the product of p1 and p2
 //   }
 
+/*function myFunction(p1, p2) {
+    return p1 * p2;
+}
+
+result = myFunction(5,10);
+
+console.log("results", result);
+*/
+
+/*function myFunction(p1, p2) {
+    let result = p1 == p2;
+    return result;
+    
+}
+*/
+//let c = myFunction(20, 7);
+//let a = myFunction(215,10);
+//let b = myFunction(10,12);
+
+//console.log(c);
+//console.log(a);
+//console.log(b);
+
+
 
 // let x = myFunction(6, 8); // let x = 48
 // let y = myFunction(9, 8);
@@ -92,13 +116,14 @@ let answer = "thats great";
 // console.log("Y", y);
 // console.log("Z", z);
 
-// let a = 6;
-// let b = 8;
+/*
+ let x = 6;
+ let y = 8;
 
-// let k = myFunction(a, b);
+ let k = x + y ;
 
-// console.log("K:", k);
-
+ console.log("K:", k);
+*/
 
 // function myFunction(p1, p2) {
 //     let result = p1 * p2;
@@ -115,3 +140,19 @@ let answer = "thats great";
 
 // console.log("X", x);
 
+
+
+function myFunction(p1, p2) {
+    let result = p1 * p2;
+    console.log("var1", p1);
+    console.log("var2", p2);
+    console.log("product of both", result);
+}
+
+myFunction(10,3);
+myFunction(14,9);
+myFunction(12,7);
+
+let v = myFunction(7,7);
+
+console.log("V",v);
