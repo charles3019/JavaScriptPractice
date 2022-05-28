@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <!-- <p> Click the button to display the date</p> -->
+    <!-- <button onclick = "displayDate()">Click Me</button> -->
+    <h1 id="date"></h1>
+    <!-- <div id = "demo">
+
+    </div> -->
+    <h1> This is not refreshing</h1>
+
+    <script>
+        // function displayDate() {
+        //     let dateNow = new Date();
+        //     document.getElementById("date").innerHTML = dateNow;
+        //     // console.log(dateNow);
+
+
+        // }
+
+        // (function(){
+        //     setInterval(()=>{
+        //         let date = new Date().toLocaleTimeString();
+        //         document.getElementById("date").innerHTML = date;
+        //     }, 2000)
+        // })();
+
+        (function(){
+            setInterval(()=>{
+                // let date = new Date().toLocalDateString();
+                let date = new Date().toLocaleString();
+                document.getElementById("date").innerHTML = date;
+            }, 1000)
+        })();
+    </script>
+</body>
+
+</html>
