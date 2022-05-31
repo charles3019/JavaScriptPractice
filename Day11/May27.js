@@ -3,24 +3,33 @@
 
 
 // console.log("The number is " + num);
-// console.log("The number is" , num);
+// console.log("The number is",   num);
+
+// let number = 87;
+// console.log("The number is " + number);
+// console.log("The number is ",  number);
+// console.log(`The number is ${number}`);
+// console.log(`The additionis ${number + num2}`);
 
 // This is know template string
 // console.log(`The number is ${num}`);
 // console.log(`The addition is ${num * num2}`);
 
-// const numbers = [45, 4, 9, 9, 8, 9, 25, "name"];
+// 
 
-//Outputs index of an array
-// for (x in numbers){
-//     console.log(x);
-// }
+// const names = ["charles","bridget","ebi","samuel", "isa"];
+
+// for(x in names);
+// // console.log(names,x);
+
+// names.forEach(function myFunction(x, index, names) {
+//     console.log("x:", x, "index", index, "names", names);
+// });
 
 
-//Outputs elemets of an array
-// for (x of numbers) {
-//     console.log(x);
-// }
+
+
+
 
 
 // const numbers = [45, 4, 9, 9, 8, 9, 25, "name"];
@@ -35,15 +44,21 @@
 
 // console.log(Math.PI);
 // let num = 9.4;
+// let num = 7.6;
 
-// console.log(Math.round(num));
 
-// let num = '4'**3;
-// console.log(num);
+//  console.log(Math.round(num));
+
+//  let num = '4'**3;
+
+
+//  console.log(num);
 
 // let num2 = Math.pow(4,3);
 // console.log(num2);
 
+//  let num3 = Math.pow(2,3);
+// // console.log(num3);
 // let num = 16;
 
 // let sqt = Math.sqrt(num);
@@ -54,11 +69,19 @@
 
 // console.log(result);
 
+// let sqt = Math.sqrt(num);
+// let result = num3 * Math.sqrt(num);
+
+// console.log(result);
+
 // Absolute values
 // let num = -725.98;
 // let absolut = Math.abs(num)
 // console.log("num", num, "abolut", absolut);
 
+// let num = -7688.98;
+// let absolute =Math.abs(num);
+// console.log("absolut", absolute,"num", num);
 
 // let num1 = 725.98;
 // let absolute = Math.abs(num1)
@@ -114,12 +137,12 @@
 
 // console.log("random:", random);
 
-// let num1 = 999.645436;
-// console.log("num1", num1);
-// let truncated = Math.trunc(num1);
-// console.log("truncated", truncated);
+let num1 = 999.645436;
+console.log("num1", num1);
+let truncated = Math.trunc(num1);
+console.log("truncated", truncated);
 
-// let num2 = -7756.898;
-// console.log("num2", num2);
-// truncated = Math.trunc(num2);
-// console.log("truncated", truncated);
+let num2 = -7756.898;
+console.log("num2", num2);
+truncated = Math.trunc(num2);
+console.log("truncated", truncated);
