@@ -6,9 +6,15 @@
 
 // demoFunction(5, 7)
 
+
 // let text = "Visit W3Schools!";
 // let n = text.search("w3schools");
 // console.log(n);
+
+// let word = "Viva la fuga";
+// let v = word.search("fuga");
+// console.log(v);
+
 
 // let text = "Visit W3Schools";
 // let n = text.search(/w3schools/i);
@@ -18,6 +24,14 @@
 // let text = "Visit microsoft!";
 // console.log(text);
 // let result = text.replace("Microsoft", "W3Schools");
+
+let word = "visit sheffield attractions";
+console.log(word);
+let result = word.replace("sheffield", "manchester");
+console.log(result);
+
+
+
 
 // console.log(result);
 
@@ -59,9 +73,9 @@
 
 // kelogram
 // kelometer
-let text = "HELLONOT HELLO, LOOK AT YOU!"; 
-// let result = text.search(/\bYOU/);
-let result = text.search(/LO\b/);
+// let text = "HELLONOT HELLO, LOOK AT YOU!"; 
+// // let result = text.search(/\bYOU/);
+// let result = text.search(/LO\b/);
 
-console.log(result);
+// console.log(result);
 
