@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>seconds</p>
+        <p  Id = "seconds"></p>
+          <!-- <script src="countdown.js"></script> -->
+          <script>
+              //document.getElementById("seconds").innerHTML = "text"
+
+              let seconds = 5;
+              let timeRef;
+               //for (let i = seconds;  i > 0; i--) 
+              //const update = () => {
+                const update = () => {
+                timeRef = setInterval( () => {document.getElementById("seconds").innerHTML = seconds;
+                seconds = seconds -1;
+                
+            }, 1000);
+            if(seconds<1){
+                return;
+            }
+            //if (seconds < 1) {
+                //stopInterval(, ()=>{
+
+                //});
+               // clearInterval(timeRef);
+                
+           // }
+            }
+            
+            
+            update();
+            
+
+
+               // setInterval(()=>{  
+                    // let date = new Date().toLocalDateString();
+                    // let date = new Date().toLocaleString();
+                    // console.log("i",i);
+                   // document.getElementById("seconds").innerHTML = i;
+               // }, 1000)
+                //// seconds = seconds - 1;
+          //  }
+         //  update();
+        //}
+        </script>
+    </body>
+</html>
