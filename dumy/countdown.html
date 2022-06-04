@@ -1,45 +1,39 @@
 <!DOCTYPE html>
 <html>
     <body>
-        <p>seconds</p>
+        <p></p>
         <p  Id = "seconds"></p>
-          <!-- <script src="countdown.js"></script> -->
-          <script>
-              //document.getElementById("seconds").innerHTML = "text"
-
-              let seconds = 5;
-              let timeRef;
-               //for (let i = seconds;  i > 0; i--) 
-              //const update = () => {
-                // const update = () => {
-                timeRef = setInterval( () => {document.getElementById("seconds").innerHTML = seconds;
-                seconds = seconds -1;
-                if (seconds < 0) {
+          <script ref = "./countdown.js">
+            let date = new Date("June 4, 2022 16:37:25").getTime();
+            //console.log(date - today); //let seconds = 5;
+            let timeRef;
+            //for (let i = seconds;  i > 0; i--)
+            //const update = () => {
+            // const update = () => {
+            timeRef = setInterval(() => {
+              let today = new Date().getTime();
+              let distance = date - today;
+              let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+              document.getElementById("seconds").innerHTML =
+                "Days " +
+                days +
+                " Hours " +
+                hours +
+                " min: " +
+                minutes +
+                " sec: " +
+                seconds;
+              //seconds = seconds -1; -->
+              if (distance < 0) {
                 clearInterval(timeRef);
                 document.getElementById("seconds").innerHTML = "Countdown Finished";
-                }
+              }
             }, 1000);
             
-            // }
-            
-            
-            // update();
-            
-
-
-               // setInterval(()=>{  
-                    // let date = new Date().toLocalDateString();
-                    // let date = new Date().toLocaleString();
-                    // console.log("i",i);
-                   // document.getElementById("seconds").innerHTML = i;
-               // }, 1000)
-                //// seconds = seconds - 1;
-          //  }
-         //  update();
-        //}
-        </script>
-
-
-<!-- https://www.w3schools.com/howto/howto_js_countdown.asp -->
+          </script>
     </body>
 </html>
