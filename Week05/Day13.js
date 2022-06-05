@@ -68,7 +68,7 @@ const mirged = {...person, ...car}
 // Spread operator is also valid for array.
 
 
-const cars = ["Saab", "Volvo", "BMW"];
+// const cars = ["Saab", "Volvo", "BMW"];
 
 // const numbers = [1, 2, 3, 4, 5, 6];
 
@@ -76,11 +76,16 @@ const cars = ["Saab", "Volvo", "BMW"];
 
 // console.log(mir);
 
-const numbers = [1, 2, 3, 4, 5, 6];
+// const numbers = [1, 2, 3, 4, 5, 6];
 
-const [one, two, ...rest] = numbers;
+// const [one, two, ...rest] = numbers;
 
-console.log(one);
-console.log(two);
-console.log(rest);
+// console.log(one);
+// console.log(two);
+// console.log(rest);
 
+
+let x = "mystring"
+let result = x > 10
+
+console.log("result", result);
