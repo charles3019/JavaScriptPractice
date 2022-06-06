@@ -1,46 +1,45 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html>
 
 <head>
 
-    <script>
-        function validateForm() {
-            let x = document.getElementById("firstname").value;
-            console.log("fname:", x);
-            document.getElementById("p1").innerHTML = x;
-            if (x == "") {
-                alert("Name must be filled out");
-                return false;
-            }
+  <script>
+    function validateForm() {
+      let x = document.getElementById("firstname").value;
+      console.log("fname:", x);
+      document.getElementById("p1").innerHTML = x;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
 
-        }
+    }
 
-    </script>
+  </script>
 </head>
 
 <body>
 
-    <form name="myForm" action="" onsubmit="validateForm()">
 
-        Name: <input type="text" id="firstname">
-        <input type="submit" value="Button">
-        <br>
 
-    </form>
+  <input id="firstname">
+  <button type="button" onclick="validateForm()"> Submit</button>
+  <br>
 
-    <p id="p1">Dummy paragraph 1</p>
 
-    <p id="fName"></p>
-    <p>Dummy paragraph 2</p>
+  <p id="p1">Dummy paragraph 1</p>
+
+  <p id="fName"></p>
+  <p>Dummy paragraph 2</p>
 </body>
 
 
 
-</html> -->
+</html>
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <body>
 
@@ -70,4 +69,4 @@ function myFunction() {
 </script>
 
 </body>
-</html> 
+</html>  -->
