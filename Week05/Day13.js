@@ -117,20 +117,20 @@
 
 // // console.log(mir);
 
-const numbers = {one: 1, two: 2, three: 3, four: 4, five:5, six:6};
+// const numbers = {one: 1, two: 2, three: 3, four: 4, five:5, six:6};
 
-//const [one, two, ...rest] = numbers;
-console.log(numbers.one);
-const {one, two, ...rest} = numbers; // destrcuring as well using spread operator
+// //const [one, two, ...rest] = numbers;
+// console.log(numbers.one);
+// const {one, two, ...rest} = numbers; // destrcuring as well using spread operator
 
-console.log(one);
-console.log(two);
-console.log(rest);
-
-
+// console.log(one);
+// console.log(two);
+// console.log(rest);
 
 
-// let x = "mystring"
-// let result = x > 10
 
-// console.log("result", result);
+
+let x = "mystring"
+let result = x > 10
+
+console.log("result", result);
