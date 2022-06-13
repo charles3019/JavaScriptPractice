@@ -18,7 +18,19 @@
           document.getElementById("fav_la").innerHTML = "FAV: " + fav_language[i].value;
       }
 
-      // console.log("Fav_lang", fav_language);
+      
+
+      let vehicle = document.getElementsByName("vehicle");
+      console.log("typeof Vehicle:", typeof (vehicle));
+      console.log(vehicle);
+      let vehArr = [];
+      for (i = 0; i < vehicle.length; i++) {
+        if (vehicle[i].checked)
+        vehArr.push(vehicle[i].value);
+          //document.getElementById("my_veh").innerHTML = "Veh: " + vehicle[i].value; -->
+      }
+      document.getElementById("my_veh").innerHTML = vehArr;
+      // console.log("Fav_lang", vehicle);
       if (x == "") {
         alert("Name must be filled out");
         return false;
@@ -44,11 +56,11 @@
   <label for="javascript">JavaScript</label>
   <br>
   <p>Select Multiple option</p>
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <input type="checkbox" id="vehicle1" name="vehicle" value="__Bike">
   <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <input type="checkbox" id="vehicle2" name="vehicle" value="Car">
   <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <input type="checkbox" id="vehicle3" name="vehicle" value="Boat">
   <label for="vehicle3"> I have a boat</label><br>
   <br>
   <button type="button" onclick="validateForm()"> Submit</button>
@@ -59,7 +71,7 @@
 
   <p id="fName"></p>
   <p id="fav_la"></p>
-
+  <p id="my_veh"></p>
   <p>Dummy paragraph 2</p>
 </body>
 

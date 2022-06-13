@@ -12,16 +12,16 @@
 
 // write a program that gets temperature from the user in celsius and convert its to fahrenheit using the formula F = 9/5*C+32.
 
-function temperature(C) {
-    let F = 9/5*C+32;
-    return F;
-}
+// function temperature(C) {
+//     let F = 9/5*C+32;
+//     return F;
+// }
 
-//let F = temperature(9);
+// //let F = temperature(9);
 
 
 
-console.log("Temperature:", temperature(9));
+// console.log("Temperature:", temperature(9));
 
 
 
@@ -78,4 +78,77 @@ let Grade = 23;
 let result = myFunction(Grade,Salary);
 
 console.log(result);
-*/
+// */
+
+// function myFunction(x, y=2) {
+   
+//     return x * y;
+//   }
+//   var x = myFunction(4);
+//   console.log(x);
+
+//   x = findMax(-55, 77,888,10,27);
+
+// function findMax() {
+//     let max = -Infinity;
+//     for (let i = 0; i < arguments.length; i++) {
+//       if (arguments[i] > max) {
+//         max = arguments[i];
+//       }
+//     }
+//     return max;
+//   }
+
+// var max = findMax(-55, 77, 888, 10);
+// console.log(max)
+
+// let x = myFunction();
+// function myFunction() {
+//   return this;
+// }
+
+// console.log(x);
+
+
+// const person = {
+//     Fullname: function() { 
+//     return this.firstName + " " + this.lastName;
+//    }
+// }
+
+// const person1 = {
+//     fisrtName: "Charles", lastName:"Agyemang"
+// }
+
+
+// const person2 = {
+//     fisrtName: "Bridget", lastName:"Oduro"
+// };
+
+// // person.Fullname.call(person2);
+
+// console.log(person2)
+
+// console.log(person1)
+
+
+const person = {
+    firstName:"John",
+    lastName: "Doe",
+    fullName: function() {
+      return this.firstName + " " + this.lastName;
+    }
+  }
+  
+  const member = {
+    firstName:"Hege",
+    lastName: "Nilsen",
+  }
+  
+  let fullName = person.fullName.bind(member);
+
+  console.log(fullName)
+  
+
+
+
