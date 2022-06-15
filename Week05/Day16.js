@@ -50,7 +50,7 @@ console.log(myBooks);
 
 let otherBooks = new books("Happy sexy millioniare","self taught","Steven bartlett", "2021");
 
-console.log(otherBooks);
+// console.log(otherBooks);
 
 let str = "otherBooks";
 for (const x of str) {
@@ -70,16 +70,20 @@ for (const x of str) {
 //       }
 //     };
 //   }
+ 
   
-//   // Create Iterable
+// //   // Create Iterable
 //   const n = myNumbers();
 //   // Returns 10
 //   console.log( n.next());
-// //   n.next(); // Returns 20
+//   n.next(); // Returns 20
 //   console.log( n.next());
-// //   n.next(); // Returns 30
+//   n.next(); // Returns 30
 //   console.log(n.next());
 
 // Display age
 // document.getElementById("demo").innerHTML =
 // "My father is " + myFather.age + "."; 
+
+
+
