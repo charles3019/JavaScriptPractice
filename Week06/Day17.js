@@ -16,7 +16,7 @@
 // let answer = x + 29;
 // console.log("answer", answer);
 
-
+//CLASS
 
 // class Car {
 //     constructor(brand) {
