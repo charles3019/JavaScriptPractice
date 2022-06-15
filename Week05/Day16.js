@@ -33,53 +33,52 @@
 //     console.log(x);
 //   }
 
-// class books {
-//   constructor(title, description,author,year) {
-//     this.bookTitle = title;
-//     this.bookDescription = description;
-//     this.bookAuthor = author;
-//     this.bookYear = year;
-//   }
-// }
+class books {
+  constructor(title, description,author,year) {
+    this.bookTitle = title;
+    this.bookDescription = description;
+    this.bookAuthor = author;
+    this.bookYear = year;
+  }
+}
 
 
 
-// const myBooks = new books("Power", "self taught", "Robert Greene","1998");
+const myBooks = new books("Power", "self taught", "Robert Greene","1998");
 
-// console.log(myBooks);
+console.log(myBooks);
 
-// let otherBooks = new books("Happy sexy millioniare","self taught","Steven bartlett", "2021");
+let otherBooks = new books("Happy sexy millioniare","self taught","Steven bartlett", "2021");
 
 // console.log(otherBooks);
 
-// let str = "otherBooks";
-// for (const x of str) {
-//   console.log(x);
-// }
+let str = "otherBooks";
+for (const x of str) {
+  console.log(x);
+}
 
 
 
 // Home Made Iterable
-function myNumbers() {
-    let n = 0;
-    return {
-      next: function() {
-        n += 10;
-        // return {value:n, done:false};
-        return n;
-      }
-    };
-  }
-
+// function myNumbers() {
+//     let n = 0;
+//     return {
+//       next: function() {
+//         n += 10;
+//         // return {value:n, done:false};
+//         return n;
+//       }
+//     };
+//   }
+ 
   
-  
-//   // Create Iterable
+// //   // Create Iterable
 //   const n = myNumbers();
 //   // Returns 10
 //   console.log( n.next());
-// //   n.next(); // Returns 20
+//   n.next(); // Returns 20
 //   console.log( n.next());
-// //   n.next(); // Returns 30
+//   n.next(); // Returns 30
 //   console.log(n.next());
 
 // Display age

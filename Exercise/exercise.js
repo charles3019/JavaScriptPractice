@@ -132,23 +132,72 @@ console.log(result);
 // console.log(person1)
 
 
-const person = {
-    firstName:"John",
-    lastName: "Doe",
-    fullName: function() {
-      return this.firstName + " " + this.lastName;
-    }
-  }
+// const person = {
+//     firstName:"John",
+//     lastName: "Doe",
+//     fullName: function() {
+//       return this.firstName + " " + this.lastName;
+//     }
+//   }
   
-  const member = {
-    firstName:"Hege",
-    lastName: "Nilsen",
-  }
+//   const member = {
+//     firstName:"Hege",
+//     lastName: "Nilsen",
+//   }
   
-  let fullName = person.fullName.bind(member);
+//   let fullName = person.fullName.bind(member);
 
-  console.log(fullName)
+//   console.log(fullName)
   
 
 
+// let a = 4;
 
+// function myFunction() {
+//   return a * a;
+// }
+
+//  a = myFunction();
+
+// console.log(a);
+
+
+
+
+// function myFunction() {
+//   let x = 4;
+//   return x * x;
+  
+// }
+
+//   x = myFunction();
+
+// console.log(x);
+
+
+// function myFunction () {
+//   v = 5;
+  
+// }
+
+
+// myFunction();
+// console.log(v * v);
+
+// let counter = 0;
+
+// Function to increment counter
+function add() {
+  let counter = 0;
+  counter += 1;
+  return counter;
+}
+
+// Call add() 3 times
+let counter = add();
+// let counter = add();
+// let counter = add();
+
+console.log(counter);
+
+//The counter should now be 3. But it is 1.
