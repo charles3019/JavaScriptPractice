@@ -2,19 +2,20 @@
 //     console.log(some);
 //   }
   
-  function myFirst() {
-    // myDisplayer("Hello");
-    console.log("Hello");
-  }
+  // function myFirst() {
+  //   // myDisplayer("Hello");
+  //   console.log("Hello");
+  // }
   
-  function mySecond() {
-    // myDisplayer("Goodbye");
-    console.log("Goodbye");
-  }
+  // function mySecond() {
+  //   // myDisplayer("Goodbye");
+  //   console.log("Goodbye");
+  // }
   
-//   mySecond();
-//   myFirst();
-
+  // myFirst();
+  // mySecond();
+  
+  
 // function myDisplayer(some) {
 //     console.log(some);
 //   }
@@ -73,23 +74,33 @@
 //   console.log(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
 // }
 
+function myFunction () {
+  console.log("I am a software engineer !!");
+}
+setTimeout(myFunction, 3000);
+setInterval(myFunction, 1000);
 
-const function2 = () =>{
-    setTimeout(()=>{
-        console.log("Function2 is called");
-    }, 2000)
+function myFunction () {
+  let x = new Date();
+  console.log(x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds());
 }
 
-const function1 = () =>{
+// const function2 = () =>{
+//     setTimeout(()=>{
+//         console.log("Function2 is called");
+//     }, 2000)
+// }
 
-    console.log("Function1 is called");
-    function2();
-    console.log("Function1 is called again");
-    console.log("Function1 is called again");
-    console.log("Function1 is called again");
-    console.log("Function1 is called again");
+// const function1 = () =>{
+
+//     console.log("Function1 is called");
+//     function2();
+//     console.log("Function1 is called again");
+//     console.log("Function1 is called again");
+//     console.log("Function1 is called again");
+//     console.log("Function1 is called again");
 
 
-}
+// }
 
-function1();
+// function1();
