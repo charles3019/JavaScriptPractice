@@ -130,3 +130,34 @@
 
 //    let myFruit = new Fruit("Apple");
 //    console.log(Fruit.hello(myFruit));
+
+
+
+let month;
+ month = 1;
+
+switch(new Date().getDay()) {
+    case 0:
+    month = "January";
+    break;
+    case 1:
+    month = "feb";
+    break;
+    case 2:
+    month = "Mar";
+    break;
+    case 3:
+    month = "April";
+    break;
+    case 4:
+    month = "May";
+    break;
+    case 5:
+    month = "June";
+    break;
+    case 6:
+    month = "july";
+    break;
+}
+
+console.log(month);
