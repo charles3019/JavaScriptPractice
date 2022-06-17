@@ -13,21 +13,22 @@
 
 
 
-function subtraction(p1, p2, p3) {
-  if (p3 == undefined){
-    return p1 - p2; // The function returns the product
+// function subtraction(p1, p2, p3) {
+//   if (p3 == undefined){
+//     return p1 - p2; // The function returns the product
 
-  }else if (p2 == undefined){
+//   }else if (p2 == undefined){
 
-  }
-  else{
-    return p1 - p2 - p3; // The function returns the product of p1 - p2
-  }
-}
+//   }
+//   else{
+//     return p1 - p2 - p3; // The function returns the product of p1 - p2
+//   }
+// }
 
-let result = subtraction(9,9,7);
+// let result = subtraction(9,9,7);
 
-console.log(result);
+// console.log(result);
+
 
 
 /*
