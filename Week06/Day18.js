@@ -74,16 +74,18 @@
 //   console.log(d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds());
 // }
 
-function myFunction () {
-  console.log("I am a software engineer !!");
-}
-setTimeout(myFunction, 3000);
-setInterval(myFunction, 1000);
+// function myFunction () {
+//   console.log("I am a software engineer !!");
+// }
+// setTimeout(myFunction, 3000);
+// setInterval(myFunction, 1000);
 
-function myFunction () {
-  let x = new Date();
-  console.log(x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds());
-}
+// function myFunction () {
+//   let x = new Date();
+//   console.log(x.getHours() + ":" + x.getMinutes() + ":" + x.getSeconds());
+// }
+
+
 
 // const function2 = () =>{
 //     setTimeout(()=>{
@@ -104,3 +106,21 @@ function myFunction () {
 // }
 
 // function1();
+
+const function2 = () =>{
+  setTimeout(()=>{
+    console.log("Function2 is called ");
+  }, 3000)
+}
+
+const function1 = () =>{
+  console.log("Function is called again");
+  function2();
+    console.log("Function1 is called again");
+    console.log("Function1 is called again");
+    console.log("Function1 is called again");
+    console.log("Function1 is called again");
+
+}
+
+function1();

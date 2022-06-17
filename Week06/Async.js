@@ -73,20 +73,53 @@
   
 //   myCalculator(5, 5, myDisplayer);
 
-function myDisplayer(some) {
-    console.log("mydisplayer");
-    console.log(some);
-}
+// function myDisplayer(some) {
+//     console.log("mydisplayer");
+//     console.log(some);
+// }
 
-function myCalculator(num1, num2, myCallback) {
-    let sum = num1 * num2;
-    console.log("myCalculator");
-    myCallback(sum);
-}
+// function myCalculator(num1, num2, myCallback) {
+//     let sum = num1 * num2;
+//     console.log("myCalculator");
+//     myCallback(sum);
+// }
 
-myCalculator(23, 5, myDisplayer);
+// myCalculator(23, 5, myDisplayer);
 
+// function myDisplayer(something) {
+//     console.log(something);
+//   }
+  
+//   function myCalculator(num1, num2, myCallback) {
+//     let sum = num1 + num2;
+//     myCallback(sum);
+//   }
+  
+//   myCalculator(5, 5, myDisplayer);
 
+// setTimeout(myFunction, 5000);
 
+// function myFunction() {
+//     console.log("I am building a great future.");
+// }
 
+// setTimeout(function() { myFunction("I love You !!!"); }, 3000);
+
+// function myFunction(value) {
+//   console.log(value);
+// }
+
+// Waiting for Intervals:
+
+// setInterval(myFunction, 1000);
+
+// function myFunction() {
+//   let d = new Date();
+//   console.log(d);
+//   d.getHours() + ":" +
+//   d.getMinutes() + ":" +
+//   d.getSeconds();
+// }
+
+// Waiting for Files
 
